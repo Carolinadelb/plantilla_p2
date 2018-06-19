@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Plantilla con MAterialize</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+<body>
+  
+  <!-- Comienzo de container-fluid -->
+  <div class="container-fluid">
+    <!-- comienzo de primer row -->
+    <div class="row">
+      <!-- sección logo -->
+      <section class="col-4 logo">
+        
+      </section>
+      <!-- sección títulos -->
+      <div class="col-8 title1">
+        <header>
+          <h1>BIENVENIDA</h1>
+        </header>
+      </div>
+      <!-- fin de primer row -->
+    </div>
+
+    <!-- comienzo segundo row -->
+    <div class="row">
+       <!-- columna 4 con nombre y menu -->
+        <div class="col-4">
+          <section class="profile"><!-- Para nombre de perfil con foto --> 
+            <img class="photo1" src="assets/img/vale_foto.jfif" alt="foto de valentina">
+            <h3>Valentina Smith</h3>
+            <h5>valentina@mail.com</h5>            
+          </section><!-- fin de nombre perfil con foto -->
+                        
+          <!-- menú -->
+          <nav id="menu">
+              <ul id="slide-out" class="sidenav">
+                  <li><div class="user-view">
+                    <div class="background">
+                      <img src="images/office.jpg">
+                    </div>
+                    <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                    <a href="#name"><span class="white-text name">John Doe</span></a>
+                    <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                  </div></li>
+                  <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                  <li><a href="#!">Second Link</a></li>
+                  <li><div class="divider"></div></li>
+                  <li><a class="subheader">Subheader</a></li>
+                  <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                </ul>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+          </nav>
+        </div>
+    </div>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+</body>
+</html>
